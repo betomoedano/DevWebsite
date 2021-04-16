@@ -1,28 +1,35 @@
 <template>
   <div id="appContainer" class="w-full h-screen">
-      <header class="header text-gray-800 dark:text-gray-50">
-        <Logo /> <span class="mr-4"></span>
-        <div class="menu-item dark:text-gray-50"><a href="#">Hello!</a></div>
-        <div class="menu-item dark:text-gray-50"><a href="#">Resume</a></div>
-        <div class="menu-item dark:text-gray-50"><a href="#">Portafolio</a></div>
-        <div class="menu-item dark:text-gray-50"><a href="#">Contact</a></div>    
-        <switch-mode w-size="10" h-size="10" />
-     
-        
+      <header class="flex justify-end w-full">
+        <div class="flex w-3/5 justify-between items-center -sm:w-full">
+          <Logo class="-sm:hidden"></Logo> 
+          <div class="menu-item dark:text-gray-50"><a href="#">Hello!</a></div>
+          <div class="menu-item dark:text-gray-50"><a href="#">Resume</a></div>
+          <div class="menu-item dark:text-gray-50"><a href="#">Portafolio</a></div>
+          <div class="menu-item dark:text-gray-50"><a href="#">Contact</a></div>    
+          <switch-mode/> 
+        </div>
       </header>
-      <div class="flex justify-center py-20">
-          <div class="picture"></div>
-          <div class="profile ">
-            <h1 class="font-bold text-lg">
+      <div class="flex">
+      <div class=" flex max-w-screen-xl mx-auto items-center -sm:w-full -sm:flex-col">
+          <div class=" h-80 flex items-center -sm:h-50">
+            <div class="picture  w-65 h-65 bg-cover bg-no-repeat bg-center rounded-full -sm:w-30 -sm:h-30 border-5 border-gray-900 dark:border-gray-50 "></div>
+          </div>
+          <div class="profile w-full ml-10 -sm:m-0 ">
+            <h1 class="font-semibold font-sans text-5xl -sm:text-4xl text-center mb-5 ">
               Alberto Moedano
             </h1>
-          
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, placeat. Omnis nesciunt eaque non ipsa dicta excepturi impedit, illo recusandae harum molestiae dolore quibusdam repellat, facilis odio praesentium ea tenetur.
+                <p class=" w-80 mx-auto -sm:w-full mb-5">
+                    I'm a passionate game developer who likes
+                    to spend hours making fun games to play,
+                    fast learner, hard worker, problem-solving,
+                    self-starter with a positive attitude.                
                 </p>
-            
-            <br/>
+            <button class="px-4 py-1 flex items-center rounded-full border-2 border-myColor-600 dark:border-gray-50">
+              <a href="#">Download Resume</a>
+            </button>
           </div>
+      </div>
       </div>
       
   </div>
@@ -56,46 +63,7 @@ export default {
 </script>
 
 <style>
-  .header{
-    width: 100vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: transparent;
-   
-  }
-
-  .menu-item{
-    color: gray 800;
-    padding: 10px 30px;
-    position: relative;
-    text-align: center;
-    border-bottom: 3px solid transparent;
-    display: flex;
-    transition: .4s;
-  }
-  .menu-item:hover
-  {
-    border-bottom-color: gray;
-  }
-
-  .profile{
-    margin: auto;
-    padding: 30px 30px;
-    height: 10cm;
-    width: 15cm;
-    text-align: center;
-    border-width: 5px;
-    border-radius: 50px;
-    border-color: gray;
-  }
-
-  .picture{
-    margin: auto;
-    height: 300px;
-    width: 300px;
-    background-color: #555;
-    border-radius: 50%;
-  }
+.picture{
+  background-image: url('./static/my.png') 
+}
 </style>
-

@@ -1,0 +1,16 @@
+[
+  {
+    "name": "anotherPage",
+    "path": "/anotherPage",
+    "component": "C:\\\\Users\\\\betom\\\\Desktop\\\\DevWebsite\\\\pages\\\\anotherPage.vue",
+    "chunkName": "pages/anotherPage",
+    "_name": "_12793294"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "C:\\\\Users\\\\betom\\\\Desktop\\\\DevWebsite\\\\pages\\\\index.vue",
+    "chunkName": "pages/index",
+    "_name": "_6a0646b4"
+  }
+]

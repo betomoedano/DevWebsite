@@ -1,9 +1,8 @@
 <template>
   <div id="switchModeContainer">
-    <button class="py-2 px-3" aria-label="switch-mode" @click="setMode">
+    <button class="w-7" aria-label="switch-mode" @click="setMode">
       <svg
         v-if="$colorMode.preference === 'dark'"
-        :class="setSize"
         fill="currentColor"
         viewBox="0 0 20 20"
         xmlns="http://www.w3.org/2000/svg"
@@ -16,7 +15,6 @@
       </svg>
       <svg
         v-else
-        :class="setSize"
         fill="currentColor"
         viewBox="0 0 20 20"
         xmlns="http://www.w3.org/2000/svg"

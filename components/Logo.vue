@@ -1,6 +1,6 @@
 <template>
   <svg
-    class="w-10 h-10 fill-current animate-pulse"
+    class="w-7 h-7 fill-current animate-pulse"
     viewBox="0 0 360 360"
     xmlns="http://www.w3.org/2000/svg"
   >
