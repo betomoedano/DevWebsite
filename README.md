@@ -1,6 +1,6 @@
 # base-nuxtjs-windicss-vite
 
-## Clone Setup
+## Hello user!
 
 ## Build Setup
 

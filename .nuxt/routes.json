@@ -2,15 +2,15 @@
   {
     "name": "anotherPage",
     "path": "/anotherPage",
-    "component": "C:\\\\Users\\\\betom\\\\Desktop\\\\DevWebsite\\\\pages\\\\anotherPage.vue",
+    "component": "C:\\\\Users\\\\betom\\\\Documents\\\\GitHub\\\\DevWebsite\\\\pages\\\\anotherPage.vue",
     "chunkName": "pages/anotherPage",
-    "_name": "_12793294"
+    "_name": "_0a4133da"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "C:\\\\Users\\\\betom\\\\Desktop\\\\DevWebsite\\\\pages\\\\index.vue",
+    "component": "C:\\\\Users\\\\betom\\\\Documents\\\\GitHub\\\\DevWebsite\\\\pages\\\\index.vue",
     "chunkName": "pages/index",
-    "_name": "_6a0646b4"
+    "_name": "_4c06751a"
   }
 ]

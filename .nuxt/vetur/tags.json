@@ -1,8 +1,14 @@
 {
+  "AppStoreSvg": {
+    "description": "Auto imported from components/appStoreSvg.vue"
+  },
   "Logo": {
     "description": "Auto imported from components/Logo.vue"
   },
   "SwitchMode": {
     "description": "Auto imported from components/SwitchMode.vue"
+  },
+  "UnityLogoSvg": {
+    "description": "Auto imported from components/UnityLogoSvg.vue"
   }
 }

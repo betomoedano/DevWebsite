@@ -13,13 +13,13 @@ import { createStore } from './store.js'
 
 /* Plugins */
 
-import nuxt_plugin_plugin_f96de9e2 from 'nuxt_plugin_plugin_f96de9e2' // Source: .\\components\\plugin.js (mode: 'all')
-import nuxt_plugin_pluginserver_79ab4d77 from 'nuxt_plugin_pluginserver_79ab4d77' // Source: .\\color-mode\\plugin.server.js (mode: 'server')
-import nuxt_plugin_pluginclient_13f1dbef from 'nuxt_plugin_pluginclient_13f1dbef' // Source: .\\color-mode\\plugin.client.js (mode: 'client')
-import nuxt_plugin_workbox_0cd52e4e from 'nuxt_plugin_workbox_0cd52e4e' // Source: .\\workbox.js (mode: 'client')
-import nuxt_plugin_metaplugin_6d8bf4ce from 'nuxt_plugin_metaplugin_6d8bf4ce' // Source: .\\pwa\\meta.plugin.js (mode: 'all')
-import nuxt_plugin_iconplugin_72339a42 from 'nuxt_plugin_iconplugin_72339a42' // Source: .\\pwa\\icon.plugin.js (mode: 'all')
-import nuxt_plugin_windicss_7b3cfd64 from 'nuxt_plugin_windicss_7b3cfd64' // Source: ..\\node_modules\\nuxt-windicss\\dist\\template\\windicss.js (mode: 'all')
+import nuxt_plugin_plugin_b7afee4c from 'nuxt_plugin_plugin_b7afee4c' // Source: .\\components\\plugin.js (mode: 'all')
+import nuxt_plugin_pluginserver_2bf4454c from 'nuxt_plugin_pluginserver_2bf4454c' // Source: .\\color-mode\\plugin.server.js (mode: 'server')
+import nuxt_plugin_pluginclient_738a5878 from 'nuxt_plugin_pluginclient_738a5878' // Source: .\\color-mode\\plugin.client.js (mode: 'client')
+import nuxt_plugin_workbox_1f55ddd9 from 'nuxt_plugin_workbox_1f55ddd9' // Source: .\\workbox.js (mode: 'client')
+import nuxt_plugin_metaplugin_4915e959 from 'nuxt_plugin_metaplugin_4915e959' // Source: .\\pwa\\meta.plugin.js (mode: 'all')
+import nuxt_plugin_iconplugin_4dbd8ecd from 'nuxt_plugin_iconplugin_4dbd8ecd' // Source: .\\pwa\\icon.plugin.js (mode: 'all')
+import nuxt_plugin_windicss_84115304 from 'nuxt_plugin_windicss_84115304' // Source: ..\\node_modules\\nuxt-windicss\\dist\\template\\windicss.js (mode: 'all')
 
 // Component: <ClientOnly>
 Vue.component(ClientOnly.name, ClientOnly)
@@ -84,7 +84,7 @@ async function createApp(ssrContext, config = {}) {
   // here we inject the router and store to all child components,
   // making them available everywhere as `this.$router` and `this.$store`.
   const app = {
-    head: {"title":"Base Proyect","meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"}],"link":[],"style":[],"script":[{"hid":"nuxt-color-mode-script","innerHTML":"!function(){\"use strict\";var e=window,s=document,o=s.documentElement,a=[\"dark\",\"light\"],t=window.localStorage.getItem(\"nuxt-color-mode\")||\"dark\",c=\"system\"===t?l():t,i=s.body.getAttribute(\"data-color-mode-forced\");function r(e){var s=\"\"+e+\"\";o.classList?o.classList.add(s):o.className+=\" \"+s}function n(s){return e.matchMedia(\"(prefers-color-scheme\"+s+\")\")}function l(){if(e.matchMedia&&\"not all\"!==n(\"\").media)for(var s of a)if(n(\":\"+s).matches)return s;return\"dark\"}i&&(c=i),r(c),e[\"__NUXT_COLOR_MODE__\"]={preference:t,value:c,getColorScheme:l,addClass:r,removeClass:function(e){var s=\"\"+e+\"\";o.classList?o.classList.remove(s):o.className=o.className.replace(new RegExp(s,\"g\"),\"\")}}}();\n","pbody":true}],"__dangerouslyDisableSanitizersByTagID":{"nuxt-color-mode-script":["innerHTML"]}},
+    head: {"title":"Website Alberto","meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"}],"link":[],"style":[],"script":[{"hid":"nuxt-color-mode-script","innerHTML":"!function(){\"use strict\";var e=window,s=document,o=s.documentElement,a=[\"dark\",\"light\"],t=window.localStorage.getItem(\"nuxt-color-mode\")||\"dark\",c=\"system\"===t?l():t,i=s.body.getAttribute(\"data-color-mode-forced\");function r(e){var s=\"\"+e+\"\";o.classList?o.classList.add(s):o.className+=\" \"+s}function n(s){return e.matchMedia(\"(prefers-color-scheme\"+s+\")\")}function l(){if(e.matchMedia&&\"not all\"!==n(\"\").media)for(var s of a)if(n(\":\"+s).matches)return s;return\"dark\"}i&&(c=i),r(c),e[\"__NUXT_COLOR_MODE__\"]={preference:t,value:c,getColorScheme:l,addClass:r,removeClass:function(e){var s=\"\"+e+\"\";o.classList?o.classList.remove(s):o.className=o.className.replace(new RegExp(s,\"g\"),\"\")}}}();\n","pbody":true}],"__dangerouslyDisableSanitizersByTagID":{"nuxt-color-mode-script":["innerHTML"]}},
 
     store,
     router,
@@ -213,32 +213,32 @@ async function createApp(ssrContext, config = {}) {
   }
   // Plugin execution
 
-  if (typeof nuxt_plugin_plugin_f96de9e2 === 'function') {
-    await nuxt_plugin_plugin_f96de9e2(app.context, inject)
+  if (typeof nuxt_plugin_plugin_b7afee4c === 'function') {
+    await nuxt_plugin_plugin_b7afee4c(app.context, inject)
   }
 
-  if (process.server && typeof nuxt_plugin_pluginserver_79ab4d77 === 'function') {
-    await nuxt_plugin_pluginserver_79ab4d77(app.context, inject)
+  if (process.server && typeof nuxt_plugin_pluginserver_2bf4454c === 'function') {
+    await nuxt_plugin_pluginserver_2bf4454c(app.context, inject)
   }
 
-  if (process.client && typeof nuxt_plugin_pluginclient_13f1dbef === 'function') {
-    await nuxt_plugin_pluginclient_13f1dbef(app.context, inject)
+  if (process.client && typeof nuxt_plugin_pluginclient_738a5878 === 'function') {
+    await nuxt_plugin_pluginclient_738a5878(app.context, inject)
   }
 
-  if (process.client && typeof nuxt_plugin_workbox_0cd52e4e === 'function') {
-    await nuxt_plugin_workbox_0cd52e4e(app.context, inject)
+  if (process.client && typeof nuxt_plugin_workbox_1f55ddd9 === 'function') {
+    await nuxt_plugin_workbox_1f55ddd9(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_metaplugin_6d8bf4ce === 'function') {
-    await nuxt_plugin_metaplugin_6d8bf4ce(app.context, inject)
+  if (typeof nuxt_plugin_metaplugin_4915e959 === 'function') {
+    await nuxt_plugin_metaplugin_4915e959(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_iconplugin_72339a42 === 'function') {
-    await nuxt_plugin_iconplugin_72339a42(app.context, inject)
+  if (typeof nuxt_plugin_iconplugin_4dbd8ecd === 'function') {
+    await nuxt_plugin_iconplugin_4dbd8ecd(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_windicss_7b3cfd64 === 'function') {
-    await nuxt_plugin_windicss_7b3cfd64(app.context, inject)
+  if (typeof nuxt_plugin_windicss_84115304 === 'function') {
+    await nuxt_plugin_windicss_84115304(app.context, inject)
   }
 
   // Lock enablePreview in context
