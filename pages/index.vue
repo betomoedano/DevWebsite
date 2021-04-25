@@ -34,11 +34,25 @@
       </div>
     </div>
     <div class = ""><!-- Skills -->
-        <div class = "? bg-white rounded-5xl mx-auto"><!-- Container -->
-            <h1 class=" text-5xl -sm:text-2xl text-center mb-5 text-gray-900 font-semibold">Skills</h1>
-            <div><!-- Unity -->
-              <h1 class=" text-5xl -sm:text-2xl text-center mb-5 text-gray-900 font-semibold">Unity</h1>
+        <div class = "? grid grid-cols-2 gap-4 bg-white rounded-5xl mx-auto"><!-- Container -->
+            <h1 class=" text-5xl -sm:text-2xl text-center mb-5 text-gray-900 font-semibold col-span-2">Skills</h1>
+            <div class= "bg-gray-50 ?"><!-- Unity -->
+              <h1 class=" text-4xl text-center -sm:text-2xl mb-5 text-gray-900 font-semibold ">Unity</h1>
+              <p class="text-center">
+                I have been using unity since I was in college to make school proyects and a couple of personal games. 
+                unity is my favorite game engine.
+              </p>
+              <div class="unityIcon w-20 h-20 bg-center mx-auto"> <!--  Unity icon --> </div>
             </div>
+
+            <div class= "bg-gray-50 ?"><!-- c# -->
+              <h1 class=" text-4xl text-center -sm:text-2xl mb-5 text-gray-900 font-semibold ">C#</h1>
+              <p class="text-center">
+                the OOP language  that I am most fluent with,  I use it to make the scripts of my games and proyects.
+              </p>
+              <div class="cIcon w-20 h-20 bg-center mx-auto"> <!--  c# icon --> </div>
+            </div>
+            
         </div>
     </div>
 
@@ -75,5 +89,13 @@ export default {
 <style>
 .picture {
   background-image: url("./static/my.png");
+}
+
+.unityIcon {
+  background-image: url("./static/unity.png")
+}
+
+.cIcon {
+  background-image: url("./static/c.png")
 }
 </style>

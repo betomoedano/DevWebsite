@@ -3,14 +3,12 @@
     "name": "anotherPage",
     "path": "/anotherPage",
     "component": "C:\\\\Users\\\\betom\\\\Documents\\\\GitHub\\\\DevWebsite\\\\pages\\\\anotherPage.vue",
-    "chunkName": "pages/anotherPage",
-    "_name": "_0a4133da"
+    "chunkName": "pages/anotherPage"
   },
   {
     "name": "index",
     "path": "/",
     "component": "C:\\\\Users\\\\betom\\\\Documents\\\\GitHub\\\\DevWebsite\\\\pages\\\\index.vue",
-    "chunkName": "pages/index",
-    "_name": "_4c06751a"
+    "chunkName": "pages/index"
   }
 ]
