@@ -34,11 +34,11 @@
       </div>
     </div>
     <div class = ""><!-- Skills -->
-        <div class = "grid grid-cols-2 gap-4 bg-white rounded-5xl mx-auto mx-43 py-10 px-2"><!-- Container -->
-            <h1 class=" text-5xl -sm:text-2xl text-center mb-5 text-gray-900 font-semibold col-span-2">Skills</h1>
+        <div class = "grid grid-cols-2 gap-4  -sm:auto-cols-1 -sm:p-0 -sm:m-0 bg-white rounded-5xl mx-auto mx-43 py-10 px-2"><!-- Container -->
+            <h1 class="shadow-2xl text-5xl -sm:text-2xl text-center mb-5 text-gray-900 font-semibold col-span-2">Skills</h1>
 
-            <div class= " shadow-2xl bg-gray-50 rounded-lg py-7 px-20"><!-- Unity -->
-              <h1 class=" text-3xl text-center -sm:text-2xl mb-5 text-black font-semibold text-white">Unity</h1>
+            <div class= " shadow-2xl bg-gray-50 rounded-lg py-7 px-20 -sm:p-3 -sm:m-3 -sm:col-span-2 "><!-- Unity -->
+              <h1 class=" text-3xl text-center -sm:text-2xl mb-5 text-black font-semibold  ">Unity</h1>
               <p class="text-center text-black">
                 I have been using unity since I was in college to make school proyects and a couple of personal games. 
                 unity is my favorite game engine.
@@ -46,31 +46,31 @@
               <div class="unityIcon w-15 h-15 bg-cover bg-center mx-auto mt-5"> <!--  Unity icon --> </div>
             </div>
 
-            <div class= " shadow-2xl bg-gray-50 rounded-lg py-7 px-20"><!-- c# -->
-              <h1 class=" text-3xl text-center -sm:text-2xl mb-5 text-black font-semibold text-white">C#</h1>
+            <div class= " shadow-2xl bg-gray-50 rounded-lg py-7 px-20 -sm:p-3 -sm:m-3 -sm:col-span-2"><!-- c# -->
+              <h1 class=" text-3xl text-center -sm:text-2xl mb-5 text-black font-semibold">C#</h1>
               <p class="text-center text-black">
                 the OOP language  that I am most fluent with,  I use it to make the scripts of my games and proyects.                               
               </p>
               <div class="cIcon w-15 h-15 bg-cover bg-center mx-auto mt-5"> <!--  c# icon --> </div>
             </div>
             
-            <div class= " shadow-2xl bg-gray-50 rounded-lg py-7 px-20"><!-- IOS -->
-              <h1 class=" text-3xl text-center -sm:text-2xl mb-5 text-black font-semibold text-white">IOS</h1>
+            <div class= " shadow-2xl bg-gray-50 rounded-lg py-7 px-20 -sm:p-3 -sm:m-3  -sm:col-span-2"><!-- IOS -->
+              <h1 class=" text-3xl text-center -sm:text-2xl mb-5 text-black font-semibold">IOS</h1>
               <p class="text-center text-black">
                 As a fan of apple products, I like to develop for IOS. some of my proyects are available in the appstore.
               </p>
               <div class="iosIcon w-15 h-15 bg-cover bg-center mx-auto mt-5"> <!--  IOS icon --> </div>
             </div>
 
-            <div class= " shadow-2xl bg-gray-50 rounded-lg py-7 px-20"><!-- Android -->
-              <h1 class=" text-3xl text-center -sm:text-2xl mb-5 text-black font-semibold text-white">Android</h1>
+            <div class= " shadow-2xl bg-gray-50 rounded-lg py-7 px-20 -sm:p-3 -sm:m-3  -sm:col-span-2"><!-- Android -->
+              <h1 class=" text-3xl text-center -sm:text-2xl mb-5 text-black font-semibold">Android</h1>
               <p class="text-center text-black">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam itaque quisquam magni. </p>
               <div class="androidIcon w-15 h-15 bg-cover bg-center mx-auto mt-5"> <!--  Android icon --> </div>
             </div>
             
-            <div class= " shadow-2xl bg-gray-50 rounded-lg py-7 px-20"><!-- Figma -->
-              <h1 class=" text-3xl text-center -sm:text-2xl mb-5 text-black font-semibold text-white">Figma</h1>
+            <div class= " shadow-2xl bg-gray-50 rounded-lg py-7 px-20 -sm:p-3 -sm:m-3  -sm:col-span-2"><!-- Figma -->
+              <h1 class=" text-3xl text-center -sm:text-2xl mb-5 text-black font-semibold">Figma</h1>
               <p class="text-center text-black">
                 Since my brother introduce me to Figma, I have been amazed to the capacity and portability that it offers.</p>
               <div class="figmaIcon w-15 h-15 bg-cover bg-center mx-auto mt-5"> <!--  Figma icon --> </div>
