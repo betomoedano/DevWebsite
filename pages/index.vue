@@ -34,25 +34,47 @@
       </div>
     </div>
     <div class = ""><!-- Skills -->
-        <div class = "? grid grid-cols-2 gap-4 bg-white rounded-5xl mx-auto"><!-- Container -->
+        <div class = "grid grid-cols-2 gap-4 bg-white rounded-5xl mx-auto mx-43 py-10 px-2"><!-- Container -->
             <h1 class=" text-5xl -sm:text-2xl text-center mb-5 text-gray-900 font-semibold col-span-2">Skills</h1>
-            <div class= "bg-gray-50 ?"><!-- Unity -->
-              <h1 class=" text-4xl text-center -sm:text-2xl mb-5 text-gray-900 font-semibold ">Unity</h1>
-              <p class="text-center">
+
+            <div class= " shadow-2xl bg-gray-50 rounded-lg py-7 px-20"><!-- Unity -->
+              <h1 class=" text-3xl text-center -sm:text-2xl mb-5 text-black font-semibold text-white">Unity</h1>
+              <p class="text-center text-black">
                 I have been using unity since I was in college to make school proyects and a couple of personal games. 
                 unity is my favorite game engine.
               </p>
-              <div class="unityIcon w-20 h-20 bg-center mx-auto"> <!--  Unity icon --> </div>
+              <div class="unityIcon w-15 h-15 bg-cover bg-center mx-auto mt-5"> <!--  Unity icon --> </div>
             </div>
 
-            <div class= "bg-gray-50 ?"><!-- c# -->
-              <h1 class=" text-4xl text-center -sm:text-2xl mb-5 text-gray-900 font-semibold ">C#</h1>
-              <p class="text-center">
-                the OOP language  that I am most fluent with,  I use it to make the scripts of my games and proyects.
+            <div class= " shadow-2xl bg-gray-50 rounded-lg py-7 px-20"><!-- c# -->
+              <h1 class=" text-3xl text-center -sm:text-2xl mb-5 text-black font-semibold text-white">C#</h1>
+              <p class="text-center text-black">
+                the OOP language  that I am most fluent with,  I use it to make the scripts of my games and proyects.                               
               </p>
-              <div class="cIcon w-20 h-20 bg-center mx-auto"> <!--  c# icon --> </div>
+              <div class="cIcon w-15 h-15 bg-cover bg-center mx-auto mt-5"> <!--  c# icon --> </div>
             </div>
             
+            <div class= " shadow-2xl bg-gray-50 rounded-lg py-7 px-20"><!-- IOS -->
+              <h1 class=" text-3xl text-center -sm:text-2xl mb-5 text-black font-semibold text-white">IOS</h1>
+              <p class="text-center text-black">
+                As a fan of apple products, I like to develop for IOS. some of my proyects are available in the appstore.
+              </p>
+              <div class="iosIcon w-15 h-15 bg-cover bg-center mx-auto mt-5"> <!--  IOS icon --> </div>
+            </div>
+
+            <div class= " shadow-2xl bg-gray-50 rounded-lg py-7 px-20"><!-- Android -->
+              <h1 class=" text-3xl text-center -sm:text-2xl mb-5 text-black font-semibold text-white">Android</h1>
+              <p class="text-center text-black">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam itaque quisquam magni. </p>
+              <div class="androidIcon w-15 h-15 bg-cover bg-center mx-auto mt-5"> <!--  Android icon --> </div>
+            </div>
+            
+            <div class= " shadow-2xl bg-gray-50 rounded-lg py-7 px-20"><!-- Figma -->
+              <h1 class=" text-3xl text-center -sm:text-2xl mb-5 text-black font-semibold text-white">Figma</h1>
+              <p class="text-center text-black">
+                Since my brother introduce me to Figma, I have been amazed to the capacity and portability that it offers.</p>
+              <div class="figmaIcon w-15 h-15 bg-cover bg-center mx-auto mt-5"> <!--  Figma icon --> </div>
+            </div>
         </div>
     </div>
 
@@ -97,5 +119,17 @@ export default {
 
 .cIcon {
   background-image: url("./static/c.png")
+}
+
+.iosIcon {
+  background-image: url("./static/ios.png")
+}
+
+.androidIcon {
+  background-image: url("./static/android.png")
+}
+
+.figmaIcon {
+    background-image: url("./static/figma.png")
 }
 </style>
