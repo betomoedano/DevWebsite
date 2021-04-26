@@ -80,11 +80,17 @@
 
     <div> <!-- Portfolio -->
       <h1 class=" text-5xl -sm:text-5xl text-center mb-5 font-semibold  ">Portfolio</h1>
-      <div class="flex px-40 ">
-          <h1 class=" text-3xl -sm:text-5xl text-left mb-5 font-semibold mr-10 pt-3">Rockets X</h1>
-          <div class="rocketsIcon w-15 h-15 bg-cover bg-no-repeat bg-center shadow-2xl"></div>
+      <div class="flex -sm:p-1 px-40 ">
+          <h1 class=" text-3xl -sm:text-2xl -sm:pl-4 text-left mb-5 font-semibold mr-10 pt-3">Rockets X</h1>
+          <div class="rocketsIcon w-15 h-15  bg-cover bg-no-repeat bg-center shadow-2xl "></div>
       </div>
-      <div class="screen1 w-694px h-344px bg-no-repeat bg-center mx-auto mt-10"></div>
+      <div class="screen1 w-680px h-329px -sm:w-346px -sm:h-167px -sm:mx-auto bg-cover bg-no-repeat bg-center mx-auto mt-5"></div>
+      <p class="text-center dark:text-gray-400 px-100 -sm:px-2 pt-4 -sm:text-sm">
+        Rockets X is a cassual fun game with a friendly UI
+        it has  many features like;
+        Leaderboards, Achievements, In game currency, In-App Purchasses, Adds
+      </p>
+      <div class="screen2 w-680px h-329px -sm:w-346px -sm:h-167px -sm:mx-auto bg-cover bg-no-repeat bg-center mx-auto mt-5 "></div>
     </div>
 
   </div>
@@ -148,5 +154,9 @@ export default {
 
 .screen1{
   background-image: url("./static/screen1.png")
+}
+
+.screen2{
+  background-image: url("./static/screen2.png")
 }
 </style>
