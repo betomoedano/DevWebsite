@@ -1,10 +1,10 @@
 :root {
   --color: #091a28;
-  --bg: #000000;
+  --bg: #fafafa;
 }
 .dark {
-  --color: #000000;
-  --bg: #fff;
+  --color: #fafafa;
+  --bg: #091a28;
 }
 body {
   background-color: var(--bg);

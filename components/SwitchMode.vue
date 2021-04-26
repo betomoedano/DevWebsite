@@ -1,6 +1,6 @@
 <template>
   <div id="switchModeContainer">
-    <button class="w-7" aria-label="switch-mode" @click="setMode">
+    <button class="w-7 animate-pulse" aria-label="switch-mode" @click="setMode">
       <svg
         v-if="$colorMode.preference === 'dark'"
         fill="currentColor"
