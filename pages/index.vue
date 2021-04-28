@@ -4,9 +4,9 @@
       <div class="flex w-3/5 justify-between items-center -sm:w-full">
         <Logo class="-sm:hidden"></Logo>
         <div class="menu-item -sm:hidden"><a href="#">Hello!</a></div>
-        <div class="menu-item -sm:hidden"><a href="#">Resume</a></div>
-        <div class="menu-item -sm:hidden"><a href="#">Portafolio</a></div>
-        <div class="menu-item -sm:hidden"><a href="#">Contact</a></div>
+        <div class="menu-item -sm:hidden"><a href="#skills" v-smooth-scroll="{ duration: 1000, offset: -50 }">Skills</a></div>
+        <div class="menu-item -sm:hidden"><a href="#portfolio" v-smooth-scroll="{ duration: 1000, offset: -50 }">Portafolio</a></div>
+        <div class="menu-item -sm:hidden"><a href="#contact" v-smooth-scroll="{ duration: 1000, offset: -50 }">Contact</a></div>
         <switch-mode class="pr-12 pt-2 -sm:p-4" />
       </div>
     </header>
@@ -25,18 +25,20 @@
             self-starter with a positive attitude.
           </p>
           <div class=" -sm:px-10 -sm:mb-8">         
+            
+            <a href="/CV.pdf" download="MoedanoResume">
             <button class="px-4 py-1 flex items-center rounded-full border-2 border-myColor-600 animate-pulse" >
+              Download Resume
             </button>
-                          <a href="/static/CV.pdf" download="RESUME">Download Resume </a>
-              <a
-                    target="_blank"
-                    href="../static/CV.pdf" download="RESUME">Garantías</a>
+            </a>
+                          
+                    
           </div>
  
         </div>
       </div>
     </div>
-    <div class = ""><!-- Skills -->
+    <div id="skills" class = ""><!-- Skills -->
         <div class = "grid grid-cols-2 gap-6  -sm:auto-cols-1 -sm:gap-y-16 -sm:p-0 -sm:m-0 rounded-5xl mx-auto mx-43 py-10 px-2 -sm:mx-5 -sm:rounded-xl -sm:my-10"><!-- Container -->
             <h1 class=" text-5xl -sm:text-5xl text-center mb-3 font-semibold col-span-2 ">Skills</h1>
 
@@ -89,7 +91,7 @@
         </div>
     </div>
 
-    <div> <!-- Portfolio -->
+    <div id="portfolio"> <!-- Portfolio -->
       <h1 class=" text-5xl -sm:text-5xl text-center mb-5 font-semibold  ">Portfolio</h1>
       <div class="flex -sm:p-1 px-40 "> <!-- Rockets X -->
           <h1 class=" text-3xl -sm:text-2xl -sm:pl-4 text-left mb-5 font-semibold mr-10 pt-3">Rockets X</h1>
@@ -134,7 +136,7 @@
       </div>
     </div>
 
-    <div class="mt-20"> <!-- Contact -->
+    <div id="contact" class="mt-20 " > <!-- Contact -->
       <h1 class=" text-5xl -sm:text-5xl text-center mb-5 font-semibold  ">Contact</h1>
       <div class="grid grid-cols-3 gap-3 -sm:grid-cols-1" > <!-- Grid -->
         <div class="h-30 w-50  mx-auto ">
@@ -176,7 +178,7 @@ export default {
     },
   },
   head: {
-    title: "Home Page",
+    title: "Moedano Resume",
     meta: [
       {
         hid: "home",
@@ -214,22 +216,22 @@ export default {
 }
 
 .rocketsIcon{
-  background-image: url("./static/rocketsIcon.png")
+  background-image: url("/rocketsIcon.png")
 }
 
 .screen1{
-  background-image: url("./static/screen1.png")
+  background-image: url("/screen1.png")
 }
 
 .screen2{
-  background-image: url("./static/screen2.png")
+  background-image: url("/screen2.png")
 }
 
 .screen3{
-  background-image: url("./static/screen3.png")
+  background-image: url("/screen3.png")
 }
 
 .screen4{
-  background-image: url("./static/screen4.png")
+  background-image: url("/screen4.png")
 }
 </style>
