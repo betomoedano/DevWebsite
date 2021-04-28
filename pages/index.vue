@@ -26,8 +26,11 @@
           </p>
           <div class=" -sm:px-10 -sm:mb-8">         
             <button class="px-4 py-1 flex items-center rounded-full border-2 border-myColor-600 animate-pulse" >
-              <a href="#">Download Resume</a>
             </button>
+                          <a href="../static/CV.pdf">Download Resume </a>
+              <a
+                    target="_blank"
+                    href="/static/CV.pdf">Garantías</a>
           </div>
  
         </div>
@@ -74,6 +77,14 @@
               <p class="text-center ">
                 Since my brother introduce me to Figma, I have been amazed to the capacity and portability that it offers.</p>
               <figmaSvg class="w-15 h15 mx-auto mt-5 "></figmaSvg>
+            </div>
+
+            <div class= " shadow-2xl rounded-lg py-7 px-20 -sm:p-3 -sm:m-3  -sm:col-span-2"><!-- Git -->
+              <h1 class=" text-3xl text-center -sm:text-2xl mb-5  font-semibold">Git</h1>
+              <p class="text-center ">
+                I am currently working on this website, if you find any issue it is cause it is not finished yet. sorry... XD
+              </p>
+              <gitSvg class="w-15 h15 mx-auto mt-5 "></gitSvg>
             </div>
         </div>
     </div>
