@@ -27,10 +27,10 @@
           <div class=" -sm:px-10 -sm:mb-8">         
             <button class="px-4 py-1 flex items-center rounded-full border-2 border-myColor-600 animate-pulse" >
             </button>
-                          <a href="../static/CV.pdf">Download Resume </a>
+                          <a href="/static/CV.pdf" download="RESUME">Download Resume </a>
               <a
                     target="_blank"
-                    href="/static/CV.pdf">Garantías</a>
+                    href="../static/CV.pdf" download="RESUME">Garantías</a>
           </div>
  
         </div>
