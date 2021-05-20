@@ -39,10 +39,6 @@
       </div>
     </div>
 
-    <div class="w-100% h-100">
-    <iframe src='https://my.spline.design/deviceiphone12-41e9480a16c4447d7886f399d54f2fb4/' frameborder='0' width='100%' height='100%'></iframe>
-    </div>
-
     <div id="skills" class = "mx-auto"><!-- Skills -->
         <div class = "grid grid-cols-2 gap-6  -md:auto-cols-1 -md:gap-y-16 -sm:p-0  -md:m-0 rounded-5xl mx-auto mx-43 py-10 px-2 -md:mx-5 -md:rounded-xl -md:my-10"><!-- Container -->
             <h1 class=" text-5xl -sm:text-5xl text-center mb-3 font-semibold col-span-2 ">Skills</h1>
@@ -96,6 +92,10 @@
         </div>
     </div>
 
+    <div class="w-100% h-100">
+    <iframe src='https://my.spline.design/deviceiphone12-41e9480a16c4447d7886f399d54f2fb4/' frameborder='0' width='100%' height='100%'></iframe>
+    </div>
+    
     <div id="portfolio"> <!-- Portfolio -->
       <h1 class=" text-5xl -sm:text-5xl text-center mb-5 font-semibold  ">Portfolio</h1>
       <div class="flex -sm:p-1 px-40 "> <!-- Rockets X -->
