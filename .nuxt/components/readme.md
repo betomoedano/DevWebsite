@@ -7,6 +7,11 @@ You can directly use them in pages and other components without the need to impo
 **Tip:** If a component is conditionally rendered with `v-if` and is big, it is better to use `Lazy` or `lazy-` prefix to lazy load.
 
 - `<AppStoreSvg>` | `<app-store-svg>` (components/appStoreSvg.vue)
+- `<CLogoSvg>` | `<c-logo-svg>` (components/cLogoSvg.vue)
+- `<FigmaSvg>` | `<figma-svg>` (components/figmaSvg.vue)
+- `<GitSvg>` | `<git-svg>` (components/gitSvg.vue)
+- `<IOSLogoSvg>` | `<i-o-s-logo-svg>` (components/IOSLogoSvg.vue)
 - `<Logo>` | `<logo>` (components/Logo.vue)
+- `<RocketsIcon>` | `<rockets-icon>` (components/rocketsIcon.vue)
 - `<SwitchMode>` | `<switch-mode>` (components/SwitchMode.vue)
 - `<UnityLogoSvg>` | `<unity-logo-svg>` (components/UnityLogoSvg.vue)

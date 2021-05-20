@@ -19,6 +19,7 @@ import nuxt_plugin_pluginclient_738a5878 from 'nuxt_plugin_pluginclient_738a5878
 import nuxt_plugin_workbox_1f55ddd9 from 'nuxt_plugin_workbox_1f55ddd9' // Source: .\\workbox.js (mode: 'client')
 import nuxt_plugin_metaplugin_4915e959 from 'nuxt_plugin_metaplugin_4915e959' // Source: .\\pwa\\meta.plugin.js (mode: 'all')
 import nuxt_plugin_iconplugin_4dbd8ecd from 'nuxt_plugin_iconplugin_4dbd8ecd' // Source: .\\pwa\\icon.plugin.js (mode: 'all')
+import nuxt_plugin_smoothScroll_50dd8874 from 'nuxt_plugin_smoothScroll_50dd8874' // Source: ..\\plugins\\smoothScroll.js (mode: 'client')
 import nuxt_plugin_windicss_84115304 from 'nuxt_plugin_windicss_84115304' // Source: ..\\node_modules\\nuxt-windicss\\dist\\template\\windicss.js (mode: 'all')
 
 // Component: <ClientOnly>
@@ -235,6 +236,10 @@ async function createApp(ssrContext, config = {}) {
 
   if (typeof nuxt_plugin_iconplugin_4dbd8ecd === 'function') {
     await nuxt_plugin_iconplugin_4dbd8ecd(app.context, inject)
+  }
+
+  if (process.client && typeof nuxt_plugin_smoothScroll_50dd8874 === 'function') {
+    await nuxt_plugin_smoothScroll_50dd8874(app.context, inject)
   }
 
   if (typeof nuxt_plugin_windicss_84115304 === 'function') {

@@ -38,12 +38,17 @@
         </div>
       </div>
     </div>
-    <div id="skills" class = ""><!-- Skills -->
-        <div class = "grid grid-cols-2 gap-6  -sm:auto-cols-1 -sm:gap-y-16 -sm:p-0 -sm:m-0 rounded-5xl mx-auto mx-43 py-10 px-2 -sm:mx-5 -sm:rounded-xl -sm:my-10"><!-- Container -->
+
+    <div class="w-100% h-100">
+    <iframe src='https://my.spline.design/deviceiphone12-41e9480a16c4447d7886f399d54f2fb4/' frameborder='0' width='100%' height='100%'></iframe>
+    </div>
+
+    <div id="skills" class = "mx-auto"><!-- Skills -->
+        <div class = "grid grid-cols-2 gap-6  -md:auto-cols-1 -md:gap-y-16 -sm:p-0  -md:m-0 rounded-5xl mx-auto mx-43 py-10 px-2 -md:mx-5 -md:rounded-xl -md:my-10"><!-- Container -->
             <h1 class=" text-5xl -sm:text-5xl text-center mb-3 font-semibold col-span-2 ">Skills</h1>
 
-            <div class= " shadow-2xl  rounded-lg py-7 -sm:py-0 px-20 -sm:p-3 -sm:m-3 -md:col-span-2 "><!-- Unity -->
-              <h1 class=" text-3xl text-center -sm:text-2xl mb-5 font-semibold  ">Unity</h1>
+            <div class= " shadow-2xl  rounded-lg py-7 -md:py-0 px-20 -md:p-3 -md:m-3 -md:col-span-2 "><!-- Unity -->
+              <h1 class=" text-3xl text-center -md:text-2xl mb-5 font-semibold  ">Unity</h1>
               <p class="text-center">
                 I have been using unity since I was in college to make school proyects and a couple of personal games. 
                 unity is my favorite game engine.
@@ -51,7 +56,7 @@
               <UnityLogoSvg class="w-15 h15 mx-auto mt-5"></UnityLogoSvg> <!--  Unity icon --> 
             </div>
 
-            <div class= " shadow-2xl rounded-lg py-7 px-20 -sm:p-3 -sm:m-3 -sm:col-span-2"><!-- c# -->
+            <div class= " shadow-2xl rounded-lg py-7 px-20 -sm:p-3 -sm:m-3 -md:col-span-2"><!-- c# -->
               <h1 class=" text-3xl text-center -sm:text-2xl mb-5 font-semibold">C#</h1>
               <p class="text-center ">
                 the OOP language  that I am most fluent with,  I use it to make the scripts of my games and proyects.                               

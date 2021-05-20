@@ -2,8 +2,23 @@
   "AppStoreSvg": {
     "description": "Auto imported from components/appStoreSvg.vue"
   },
+  "CLogoSvg": {
+    "description": "Auto imported from components/cLogoSvg.vue"
+  },
+  "FigmaSvg": {
+    "description": "Auto imported from components/figmaSvg.vue"
+  },
+  "GitSvg": {
+    "description": "Auto imported from components/gitSvg.vue"
+  },
+  "IOSLogoSvg": {
+    "description": "Auto imported from components/IOSLogoSvg.vue"
+  },
   "Logo": {
     "description": "Auto imported from components/Logo.vue"
+  },
+  "RocketsIcon": {
+    "description": "Auto imported from components/rocketsIcon.vue"
   },
   "SwitchMode": {
     "description": "Auto imported from components/SwitchMode.vue"
